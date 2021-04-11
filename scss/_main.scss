@@ -640,3 +640,122 @@ body {
   }
 
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media all and (max-width: 1400px) {
+  .main__header__email {
+    padding-left: 36px;
+  }
+}
+@media all and (max-width: 1199px) {
+  .main__header__email,
+  .main__header__phones {
+    padding-left: 0;
+  }
+  .main__header__label {
+    display: none;
+  }
+}
+@media all and (max-width: 991px) {
+  .banner .banner__desc {
+    padding-top: 30px;
+    h1 {
+      font-size: 32px;
+      line-height: 1.3;
+    }
+  }
+  .banner {
+    height: 400px;
+  }
+  .equipment__item,
+  .portfolio .portfolio__body .portfolio__item {
+    flex-basis: 50%;
+  }
+  .slider-skill .slider-skill__top .slider-skill__pagination {
+    padding-top: 30px;
+    display: block;
+  }
+  .demo-box .demo-box__wrap {
+    background-image: none;
+  }
+  .project .swiper-slide {
+    max-width: 80%;
+  }
+  .main__footer .main__footer__info-box {
+    padding-left: 0;
+  }
+}
+@media all and (max-width: 768px) {
+  .main__header__top__col-date {
+    display: none;
+  }
+  .slider-skill .slider-skill__item__title, .h2 {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+  .slider-skill .slider-skill__item__text {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .demo-box .demo-box__desc {
+    padding-top: 0;
+    h2 {
+      font-size: 30px;
+      line-height: 1.4;
+    }
+  }
+  .demo-box .demo-box__desc .demo-box__desc__subtitle,
+  .demo-box .demo-box__desc .demo-box__desc__text {
+    padding-right: 0;
+  }
+  .demo-box {
+    padding: 50px 0;
+  }
+  .demo-box .demo-box__wrap {
+    min-height: auto;
+  }
+  .project .swiper-slide .project__item__img img {
+    height: 250px;
+  }
+  .project__item__desc {
+    display: block !important;
+  }
+}
+@media all and (max-width: 460px) {
+  .equipment__item, .portfolio .portfolio__body .portfolio__item {
+    flex-basis: 100%;
+  }
+  .slider-skill__top {
+    display: none;
+  }
+  .slider-skill .slider-skill__item {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    min-height: 400px;
+  }
+  .main__footer .main__footer__info-box,
+  .main__footer__bottom .d-flex {
+    display: block !important;
+  }
+  .text h2, .text .h2,
+  .demo-box .demo-box__desc h2, .demo-box .demo-box__desc .h2,
+  .portfolio .portfolio__header h2, .portfolio .portfolio__header .h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .main__header__top .btn {
+    padding-left: 15px;
+    padding-right: 15px;
+    i {
+      display: none;
+    }
+  }
+  .banner {
+    min-height: 450px;
+    height: auto;
+  }
+}
